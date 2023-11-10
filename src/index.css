@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* body{
+    background-color: #ffffff0c;
+} */
+
+.flash{
+    animation: flashanimation 0.6s ease-in-out;
+}
+
+@keyframes flashanimation {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.shadow_style{
+    box-shadow: -1px 1px 86px -8px rgba(0,0,0,0.39);
+-webkit-box-shadow: -1px 1px 86px -8px rgba(0,0,0,0.39);
+-moz-box-shadow: -1px 1px 86px -8px rgba(0,0,0,0.39);
+}
+.lineanimation {
+    stroke-dasharray: 1;
+    stroke-dashoffset: 2;
+    animation: lineanimation 1s cubic-bezier(0.4, 0, 0.2, 1) alternate;
+}
+.lineanimation1 {
+    stroke-dasharray: 1;
+    stroke-dashoffset: 2;
+    animation: lineanimation 2s cubic-bezier(0.4, 0, 0.2, 1) alternate;
+}
+@keyframes lineanimation{
+    0%{
+        stroke-dashoffset: 1;
+    }
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
