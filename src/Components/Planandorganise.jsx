@@ -40,7 +40,7 @@ const Planandorganise = () => {
   window.addEventListener('resize',()=>{
     SetWindowWidth(window.innerWidth)
   })
-  const x = useTransform(springX, [0.5, 1], ["30%", "-60%"]);
+  const x = useTransform(springX, [0.5, 1], ["10%", "-100%"]);
   const ref = useRef(null)
   const isInView = useInView(ref)
   return (

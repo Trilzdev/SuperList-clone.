@@ -13,6 +13,7 @@ const Section2 = () => {
         <Planandorganise/>
         <Integrated/>
         <Footer/>
+        
     </div>
   )
 }

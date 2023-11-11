@@ -26,7 +26,7 @@ export const Footer = () => {
                 </div>
             </div>
         </div>
-        <div className=' absolute w-full text-lg text-[#ae3c31] font-bold bottom-0 z-20  py-32'>
+        <div className=' absolute w-full text-lg text-[#ae3c31] font-bold bottom-0 sm:py-32 max-sm:pt-36 max-sm:pb-8 bg-orange-color'>
             <div className=' flex justify-center gap-64 max-md:flex-col max-md:gap-2 max-md:px-8'>
                 <div className='flex gap-4'>
                     <img src={logo} alt="" />

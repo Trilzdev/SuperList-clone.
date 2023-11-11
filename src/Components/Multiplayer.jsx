@@ -54,7 +54,7 @@ const Multiplayer = () => {
 </motion.svg>
                 </div>
         <div className=' flex items-start justify-center max-lg:items-center max-md:items-start py-32 max-lg:py-8 gap-16 max-lg:flex-col'>
-        <div className=' w-[605px] max-md:h-full max-md:w-full h-[844px] rounded-2xl flex-shrink overflow-hidden shadow_style max-lg:order-2'>
+        <div className=' min-w-[605px] max-md:min-h-full max-md:min-w-full min-h-[844px] rounded-2xl flex-shrink overflow-hidden shadow_style max-lg:order-2'>
         {
                 currentSlide === 0 &&
                 
